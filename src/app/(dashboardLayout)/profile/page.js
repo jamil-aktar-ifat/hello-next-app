@@ -3,7 +3,7 @@
 const ProfilePage = () => {
     return (
         <div>
-            <h2 className="text-2xl text-center pt-20">This is Profile page!</h2>
+            <h2 className='text-center pt-10'>This is Profile Page!</h2>
         </div>
     );
 };
