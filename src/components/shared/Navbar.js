@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const Navbar = () => {
@@ -8,10 +9,10 @@ const Navbar = () => {
                     Jamil.web
                 </a>
                 <div className="space-x-6">
-                    <a href="/about" className="hover:text-gray-200">About me</a>
-                    <a href="/contact" className="hover:text-gray-200">Contact me</a>
-                    <a href="/login" className="hover:text-gray-200">Login</a>
-                    <a href="/register" className="hover:text-gray-200">Register</a>
+                    <Link href="/about" className="hover:text-gray-200">About me</Link>
+                    <Link href="/contact" className="hover:text-gray-200">Contact me</Link>
+                    <Link href="/login" className="hover:text-gray-200">Login</Link>
+                    <Link href="/register" className="hover:text-gray-200">Register</Link>
                 </div>
             </div>
         </nav>

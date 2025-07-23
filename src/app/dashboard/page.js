@@ -1,11 +1,11 @@
 
 
-const DashboardPage = () => {
+const Dashboard = () => {
     return (
         <div>
-            <h2 className="text-2xl text-center pt-20">This is Dashboard Page!</h2>
+            <h1 className="h2 text-center pt-20">This is Dashboard page!</h1>
         </div>
     );
 };
 
-export default DashboardPage;
+export default Dashboard;
