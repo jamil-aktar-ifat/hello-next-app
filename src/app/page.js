@@ -2,9 +2,11 @@ import React from "react";
 import ProductCard from "./components/ProductCard";
 
 const HomePage = async () => {
-  const res = await fetch("http://localhost:5001/products/");
+  const res = await fetch("http://localhost:5001/products/", {
+    cache: "force-cache",
+  });
   const products = await res.json();
-  console.log(products);
+  //   console.log(products);
   return (
     <div className="text-center">
       <h1 className="text-center text-2xl my-5">
