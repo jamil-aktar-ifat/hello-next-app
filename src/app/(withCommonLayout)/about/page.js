@@ -1,11 +1,15 @@
-import styles from './About.module.css'
+export const metadata = {
+  title: "About Us Page",
+  description: "This is about us page!",
+  keywords: "Jamil, About, London, SEO, Full Stack Developer",
+};
 
 const AboutPage = () => {
-    return (
-        <div>
-            <h2 className={styles.text_color }>This is about page!!!!</h2>
-        </div>
-    );
+  return (
+    <div className="text-center">
+      <h1>About Page!</h1>
+    </div>
+  );
 };
 
 export default AboutPage;
